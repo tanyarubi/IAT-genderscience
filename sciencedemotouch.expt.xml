@@ -1,0 +1,12 @@
+<Study id="Demo.GenderScienceTouch.0002" datagroup="std" >
+
+	<Definitions>
+        <Task id="sciencedemo" file="touch.js">/common/all/js/quest/0.0/dist/manager.jsp</Task>
+        <Task id="dummy">notouch.js</Task>
+	</Definitions>
+
+	<Map>
+		<Task id="sciencedemo"/>
+		<Task id="dummy"/>		
+	</Map>
+</Study>

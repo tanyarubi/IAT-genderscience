@@ -1,0 +1,925 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Questionnaire ID="2" name="Demographics">
+	<Block Name="DEMOGRAPHICS" columns="1">
+		<Text>Please answer this short list of questions about yourself</Text>
+		<Question type="choice" render="dropselect" ID="sex" required="">
+			<Text>Sex</Text>
+			<Choices>
+				<Choice value=".">.</Choice>
+				<Choice value="f">female</Choice>
+				<Choice value="m">male</Choice>
+			</Choices>
+		</Question>
+		<Question type="choice" render="dropselect" ID="age" required="">
+			<Text>Age</Text>
+			<Choices>
+				<Choice value=".">.</Choice>
+				<Choice value="7">7</Choice>
+				<Choice value="8">8</Choice>
+				<Choice value="9">9</Choice>
+				<Choice value="10">10</Choice>
+				<Choice value="11">11</Choice>
+				<Choice value="12">12</Choice>
+				<Choice value="13">13</Choice>
+				<Choice value="14">14</Choice>
+				<Choice value="15">15</Choice>
+				<Choice value="16">16</Choice>
+				<Choice value="17">17</Choice>
+				<Choice value="18">18</Choice>
+				<Choice value="19">19</Choice>
+				<Choice value="20">20</Choice>
+				<Choice value="21">21</Choice>
+				<Choice value="22">22</Choice>
+				<Choice value="23">23</Choice>
+				<Choice value="24">24</Choice>
+				<Choice value="25">25</Choice>
+				<Choice value="26">26</Choice>
+				<Choice value="27">27</Choice>
+				<Choice value="28">28</Choice>
+				<Choice value="29">29</Choice>
+				<Choice value="30">30</Choice>
+				<Choice value="31">31</Choice>
+				<Choice value="32">32</Choice>
+				<Choice value="33">33</Choice>
+				<Choice value="34">34</Choice>
+				<Choice value="35">35</Choice>
+				<Choice value="36">36</Choice>
+				<Choice value="37">37</Choice>
+				<Choice value="38">38</Choice>
+				<Choice value="39">39</Choice>
+				<Choice value="40">40</Choice>
+				<Choice value="41">41</Choice>
+				<Choice value="42">42</Choice>
+				<Choice value="43">43</Choice>
+				<Choice value="44">44</Choice>
+				<Choice value="45">45</Choice>
+				<Choice value="46">46</Choice>
+				<Choice value="47">47</Choice>
+				<Choice value="48">48</Choice>
+				<Choice value="49">49</Choice>
+				<Choice value="50">50</Choice>
+				<Choice value="51">51</Choice>
+				<Choice value="52">52</Choice>
+				<Choice value="53">53</Choice>
+				<Choice value="54">54</Choice>
+				<Choice value="55">55</Choice>
+				<Choice value="56">56</Choice>
+				<Choice value="57">57</Choice>
+				<Choice value="58">58</Choice>
+				<Choice value="59">59</Choice>
+				<Choice value="60">60</Choice>
+				<Choice value="61">61</Choice>
+				<Choice value="62">62</Choice>
+				<Choice value="63">63</Choice>
+				<Choice value="64">64</Choice>
+				<Choice value="65">65</Choice>
+				<Choice value="66">66</Choice>
+				<Choice value="67">67</Choice>
+				<Choice value="68">68</Choice>
+				<Choice value="69">69</Choice>
+				<Choice value="70">70</Choice>
+				<Choice value="71">71</Choice>
+				<Choice value="72">72</Choice>
+				<Choice value="73">73</Choice>
+				<Choice value="74">74</Choice>
+				<Choice value="75">75</Choice>
+				<Choice value="76">76</Choice>
+				<Choice value="77">77</Choice>
+				<Choice value="78">78</Choice>
+				<Choice value="79">79</Choice>
+				<Choice value="80">80</Choice>
+				<Choice value="81">81</Choice>
+				<Choice value="82">82</Choice>
+				<Choice value="83">83</Choice>
+				<Choice value="84">84</Choice>
+				<Choice value="85">85</Choice>
+				<Choice value="86">86</Choice>
+				<Choice value="87">87</Choice>
+				<Choice value="88">88</Choice>
+				<Choice value="89">89</Choice>
+				<Choice value="90+">90+</Choice>
+			</Choices>
+		</Question>
+		<Question type="choice" render="dropselect" ID="ethnicityomb" required="">
+			<Text>Ethnicity</Text>
+			<Choices>
+				<Choice value=".">.</Choice>
+				<Choice value="1">Hispanic or Latino</Choice>
+				<Choice value="2">Not Hispanic or Latino</Choice>
+				<Choice value="3">Unknown</Choice>
+			</Choices>
+		</Question>
+		<Question type="choice" render="dropselect" ID="raceomb" required="">
+			<Text>Race</Text>
+			<Choices>
+				<Choice value=".">.</Choice>
+				<Choice value="1">American Indian/Alaska Native</Choice>
+				<Choice value="2">East Asian</Choice>
+				<Choice value="3">South Asian</Choice>
+				<Choice value="4">Native Hawaiian or other Pacific Islander</Choice>
+				<Choice value="5">Black or African American</Choice>
+				<Choice value="6">White</Choice>
+				<Choice value="7">More than one race - Black/White</Choice>
+				<Choice value="8">More than one race - Other</Choice>
+				<Choice value="9">Other or Unknown</Choice>
+			</Choices>
+		</Question>
+		<Question type="choice" render="dropselect" ID="previat" required="">
+			<Text>Prior to the current study session, had you ever completed a gender-science IAT?</Text>
+			<Choices>
+				<Choice value=".">.</Choice>
+					<Choice value="yes">Yes</Choice>
+					<Choice value="no">No</Choice>				
+			</Choices>
+		</Question>
+		<Question type="choice" render="dropselect" ID="num" required="">
+			<Text>How many IATs have you previously performed?</Text>
+			<Choices>
+				<Choice value=".">.</Choice>
+				<Choice value="0">0</Choice>
+				<Choice value="1">1</Choice>
+				<Choice value="2">2</Choice>
+				<Choice value="3-5">3-5</Choice>
+				<Choice value="6+">6+</Choice>
+			</Choices>
+		</Question>
+		<Question type="choice" render="dropselect" ID="politicalid" required="">
+			<Text>Political Identity</Text>
+			<Choices>
+				<Choice value=".">.</Choice>
+				<Choice value="1">strongly conservative</Choice>
+				<Choice value="2">moderately conservative</Choice>
+				<Choice value="3">slightly conservative</Choice>
+				<Choice value="4">neutral</Choice>
+				<Choice value="5">slightly liberal</Choice>
+				<Choice value="6">moderately liberal</Choice>
+				<Choice value="7">strongly liberal</Choice>
+			</Choices>
+		</Question>
+		<Question type="choice" render="dropselect" ID="occupation" required="">
+			<Text>Occupation</Text>
+			<Choices>
+				<Choice value=".">.</Choice>
+				<Choice value="43-1000">Administrative Support - Supervisors</Choice>
+				<Choice value="43-3000">Administrative Support - Financial Clerks</Choice>
+				<Choice value="43-4000">Administrative Support - Information and Records</Choice>
+				<Choice value="43-5000">Administrative Support - Recording, Scheduling, Dispatching, Distributing</Choice>
+				<Choice value="43-6000">Administrative Support - Secretaries and Assistants</Choice>
+				<Choice value="43-9000">Administrative Support - Other Support (data entry, office clerk, proofreaders)</Choice>
+				<Choice value="27-1000">Arts/Design/Entertainment/Sports - Art and Design</Choice>
+				<Choice value="27-2000">Arts/Design/Entertainment/Sports - Entertainers and Performers</Choice>
+				<Choice value="27-3000">Arts/Design/Entertainment/Sports - Media and communication</Choice>
+				<Choice value="27-4000">Arts/Design/Entertainment/Sports - Media Equipment workers</Choice>
+				<Choice value="13-1000">Business - Business Operations</Choice>
+				<Choice value="13-2000">Business - Financial Specialists</Choice>
+				<Choice value="15-1000">Computer/Math - Computer Specialists</Choice>
+				<Choice value="15-2000">Computer/Math - Math Scientists</Choice>
+				<Choice value="15-3000">Computer/Math - Math Technicians</Choice>
+				<Choice value="47-1000">Construction/Extraction - Supervisors</Choice>
+				<Choice value="47-2000">Construction/Extraction - Construction Trades</Choice>
+				<Choice value="47-3000">Construction/Extraction - Helpers, Construction Trades</Choice>
+				<Choice value="47-5000">Construction/Extraction - Extraction (e.g., mining, oil)</Choice>
+				<Choice value="47-4000">Construction/Extraction - Other</Choice>
+				<Choice value="25-1000">Education - Postsecondary Teachers</Choice>
+				<Choice value="25-2000">Education - Primary, Secondary, and Special Ed Teachers</Choice>
+				<Choice value="25-3000">Education - Other teachers and instructors</Choice>
+				<Choice value="25-4000">Education - Librarians, Curators, Archvists</Choice>
+				<Choice value="25-9000">Education - Other education, training, and library occupations</Choice>
+				<Choice value="25-9999">Education - Student</Choice>
+				<Choice value="17-1000">Engineers/Architects - Architects, Surveyors, Cartographers</Choice>
+				<Choice value="17-2000">Engineers/Architects - Engineers</Choice>
+				<Choice value="17-3000">Engineers/Architects - Drafters, Engineering and Mapping Technicians</Choice>
+				<Choice value="45-1000">Farming, Fishing, Forestry - Supervisors</Choice>
+				<Choice value="45-2000">Farming, Fishing, Forestry - Agriculture</Choice>
+				<Choice value="45-3000">Farming, Fishing, Forestry - Fishing and Hunting</Choice>
+				<Choice value="45-4000">Farming, Fishing, Forestry - Forest, Conservation, Logging</Choice>
+				<Choice value="45-9000">Farming, Fishing, Forestry - Other</Choice>
+				<Choice value="35-1000">Food Service - Supervisors</Choice>
+				<Choice value="35-2000">Food Service - Cooks and food prep</Choice>
+				<Choice value="35-3000">Food Service - Servers</Choice>
+				<Choice value="35-9000">Food Service - Other food service workers (e.g., dishwasher, host)</Choice>
+				<Choice value="29-1000">Healthcare - Diagnosing and Treating Practitioners (MD, Dentist, etc.)</Choice>
+				<Choice value="29-2000">Healthcare - Technologists and Technicians</Choice>
+				<Choice value="31-1000">Healthcare - Nursing and Home Health Assistants</Choice>
+				<Choice value="31-2000">Healthcare - Occupational and Physical Therapist Assistants</Choice>
+				<Choice value="31-9000">Healthcare - Other healthcare support</Choice>
+				<Choice value="00-0000">Homemaker or Parenting</Choice>
+				<Choice value="23-1000">Legal - Lawyers, Judges, and related workers</Choice>
+				<Choice value="23-2000">Legal - Legal support workers</Choice>
+				<Choice value="37-1000">Maintenance - Building and Grounds Supervisors</Choice>
+				<Choice value="37-2000">Maintenance - Building workers</Choice>
+				<Choice value="37-3000">Maintenance - Grounds Maintenance</Choice>
+				<Choice value="11-0000">Management - Top Executives</Choice>
+				<Choice value="11-2000">Management - Advertising, Sales, PR, Marketing</Choice>
+				<Choice value="11-3000">Management - Operations Specialists</Choice>
+				<Choice value="11-9000">Management - Other Management Occupations</Choice>
+				<Choice value="55-1000">Military - Officer and Tactical Leaders/Managers</Choice>
+				<Choice value="55-2000">Military - First-line enlisted supervisor/manager</Choice>
+				<Choice value="55-3000">Military - enlisted tactical, air/weapons, crew, other</Choice>
+				<Choice value="51-1000">Production - Supervisors</Choice>
+				<Choice value="51-2000">Production - Assemblers and Fabricators</Choice>
+				<Choice value="51-3000">Production - Food processing</Choice>
+				<Choice value="51-4000">Production - Metal and Plastic</Choice>
+				<Choice value="51-5000">Production - Printers</Choice>
+				<Choice value="51-6000">Production - Textile, Apparel, Furnishings</Choice>
+				<Choice value="51-7000">Production - Woodworkers</Choice>
+				<Choice value="51-8000">Production - Plant and System Operators</Choice>
+				<Choice value="51-9000">Production - Other</Choice>
+				<Choice value="33-1000">Protective Service - Supervisors</Choice>
+				<Choice value="33-2000">Protective Services - Fire fighting and prevention</Choice>
+				<Choice value="33-3000">Protective services - Law Enforcement</Choice>
+				<Choice value="33-9000">Protective Services - Other (e.g., security, lifeguards, crossing guards)</Choice>
+				<Choice value="49-1000">Repair/Installation - Supervisors</Choice>
+				<Choice value="49-2000">Repair/Installation - Electrical and Electronic</Choice>
+				<Choice value="49-3000">Repair/Installation - Vehicle and Mobile Equipment</Choice>
+				<Choice value="49-9000">Repair/Installation - Other</Choice>
+				<Choice value="99-0001">Retired</Choice>
+				<Choice value="41-1000">Sales - Supervisors</Choice>
+				<Choice value="41-2000">Sales - Retail</Choice>
+				<Choice value="41-3000">Sales - Sales Representatives and Services</Choice>
+				<Choice value="41-4000">Sales - Wholesale and Manufacturing</Choice>
+				<Choice value="41-9000">Sales - Other sales (e.g., telemarketers, real estate)</Choice>
+				<Choice value="19-1000">Science - Life Scientists</Choice>
+				<Choice value="19-2000">Science - Physical scientists</Choice>
+				<Choice value="19-3000">Science - Social Scientists</Choice>
+				<Choice value="19-4000">Science - Life, Physical, Social Science Technicians</Choice>
+				<Choice value="39-1000">Service and Personal Care - Supervisors</Choice>
+				<Choice value="39-2000">Service and Personal Care - Animal Care</Choice>
+				<Choice value="39-3000">Service and Personal Care - Entertainment attendants</Choice>
+				<Choice value="39-4000">Service and Personal Care - Funeral Service</Choice>
+				<Choice value="39-5000">Service and Personal Care - Personal Appearance</Choice>
+				<Choice value="39-6000">Service and Personal Care - Transportation, Tourism, Lodging</Choice>
+				<Choice value="39-9000">Service and Personal Care - Other service (e.g., child care, fitness)</Choice>
+				<Choice value="21-1000">Social Service - Counselors, Social Workers, Community specialists</Choice>
+				<Choice value="21-2000">Social Service - Religious Workers</Choice>
+				<Choice value="53-1000">Transportation - Supervisors</Choice>
+				<Choice value="53-2000">Transportation - Air Transportation</Choice>
+				<Choice value="53-3000">Transportation - Motor Vehicle Operators</Choice>
+				<Choice value="53-4000">Transportation - Rail Transport</Choice>
+				<Choice value="53-5000">Transportation - Water Transport</Choice>
+				<Choice value="53-7000">Transportation - Material Moving</Choice>
+				<Choice value="53-6000">Transportation - Other</Choice>
+				<Choice value="99-9999">Unemployed</Choice>
+			</Choices>
+		</Question>
+		<Question type="choice" render="dropselect" ID="religion" required="" dependent="religionid">
+			<Text>Religious Affiliation</Text>
+			<Choices>
+				<Choice value=".">.</Choice>
+				<Choice value="None">None</Choice>
+				<Choice value="African Methodist Episcopal Church">African Methodist Episcopal Church</Choice>
+				<Choice value="African Methodist Episcopal Zion Church">African Methodist Episcopal Zion Church</Choice>
+				<Choice value="Agnostic">Agnostic</Choice>
+				<Choice value="American Baptist Association">American Baptist Association</Choice>
+				<Choice value="American Baptist Churches in the U.S.A.">American Baptist Churches in the U.S.A.</Choice>
+				<Choice value="Antiochian Orthodox Christian Diocese of North America">Antiochian Orthodox Christian Diocese of North America</Choice>
+				<Choice value="Armenian Apostolic Church of America">Armenian Apostolic Church of America</Choice>
+				<Choice value="Assemblies of God">Assemblies of God</Choice>
+				<Choice value="Atheist">Atheist</Choice>
+				<Choice value="Baha'i">Baha'i</Choice>
+				<Choice value="Baptist Bible Fellowship International">Baptist Bible Fellowship International</Choice>
+				<Choice value="Baptist General Conference">Baptist General Conference</Choice>
+				<Choice value="Baptist Missionary Association of America">Baptist Missionary Association of America</Choice>
+				<Choice value="Buddhist">Buddhist</Choice>
+				<Choice value="Christian and Missionary Alliance, The">Christian and Missionary Alliance, The</Choice>
+				<Choice value="Christian Brethren (Plymouth Brethren)">Christian Brethren (Plymouth Brethren)</Choice>
+				<Choice value="Christian Church (Disciples of Christ)">Christian Church (Disciples of Christ)</Choice>
+				<Choice value="Christian Churches and Churches of Christ">Christian Churches and Churches of Christ</Choice>
+				<Choice value="Christian Congregation, Inc., The">Christian Congregation, Inc., The</Choice>
+				<Choice value="Christian Methodist Episcopal Church">Christian Methodist Episcopal Church</Choice>
+				<Choice value="Christian Reformed Church in North America">Christian Reformed Church in North America</Choice>
+				<Choice value="Church of God in Christ">Church of God in Christ</Choice>
+				<Choice value="Church of God of Prophecy">Church of God of Prophecy</Choice>
+				<Choice value="Church of God (Anderson, IN)">Church of God (Anderson, IN)</Choice>
+				<Choice value="Church of God (Cleveland, TN)">Church of God (Cleveland, TN)</Choice>
+				<Choice value="Church of Jesus Christ of Latter-day Saints, The">Church of Jesus Christ of Latter-day Saints, The</Choice>
+				<Choice value="Church of the Brethren">Church of the Brethren</Choice>
+				<Choice value="Church of the Nazarene">Church of the Nazarene</Choice>
+				<Choice value="Churches of Christ">Churches of Christ</Choice>
+				<Choice value="Conservative Baptist Association of America">Conservative Baptist Association of America</Choice>
+				<Choice value="Coptic Orthodox Church">Coptic Orthodox Church</Choice>
+				<Choice value="Cumberland Presbyterian Church">Cumberland Presbyterian Church</Choice>
+				<Choice value="Eastern Orthodox">Eastern Orthodox</Choice>
+				<Choice value="Ecumenical">Ecumenical</Choice>
+				<Choice value="Episcopal Church">Episcopal Church</Choice>
+				<Choice value="Evangelical Covenant Church, The">Evangelical Covenant Church, The</Choice>
+				<Choice value="Evangelical Free Church of America, The">Evangelical Free Church of America, The</Choice>
+				<Choice value="Evangelical Lutheran Church in America">Evangelical Lutheran Church in America</Choice>
+				<Choice value="Evangelical Presbyterian Church">Evangelical Presbyterian Church</Choice>
+				<Choice value="Free Methodist Church of North America">Free Methodist Church of North America</Choice>
+				<Choice value="Full Gospel Fellowship of Churches and Ministers Intl">Full Gospel Fellowship of Churches and Ministers Intl</Choice>
+				<Choice value="General Association of General Baptists">General Association of General Baptists</Choice>
+				<Choice value="General Association of Regular Baptist Churches">General Association of Regular Baptist Churches</Choice>
+				<Choice value="General Conference Mennonite Brethren Churches">General Conference Mennonite Brethren Churches</Choice>
+				<Choice value="Grace Gospel Fellowship">Grace Gospel Fellowship</Choice>
+				<Choice value="Greek Orthodox Archdiocese of America">Greek Orthodox Archdiocese of America</Choice>
+				<Choice value="Hindu">Hindu</Choice>
+				<Choice value="Independent Fundamental Churches of America">Independent Fundamental Churches of America</Choice>
+				<Choice value="International Church of the Foursquare Gospel">International Church of the Foursquare Gospel</Choice>
+				<Choice value="International Council of Community Churches">International Council of Community Churches</Choice>
+				<Choice value="International Pentecostal Holiness Church">International Pentecostal Holiness Church</Choice>
+				<Choice value="Jehovah's Witnesses">Jehovah's Witnesses</Choice>
+				<Choice value="Jewish">Jewish</Choice>
+				<Choice value="Lutheran Church-Missouri Synod, The">Lutheran Church-Missouri Synod, The</Choice>
+				<Choice value="Mennonite Church">Mennonite Church</Choice>
+				<Choice value="Muslim/Islamic">Muslim/Islamic</Choice>
+				<Choice value="National Assoc of Congregational Christian Churches">National Assoc of Congregational Christian Churches</Choice>
+				<Choice value="National Association of Free Will Baptists">National Association of Free Will Baptists</Choice>
+				<Choice value="National Baptist Convention of America, Inc.">National Baptist Convention of America, Inc.</Choice>
+				<Choice value="National Baptist Convention, USA, Inc.">National Baptist Convention, USA, Inc.</Choice>
+				<Choice value="National Missionary Baptist Convention of America">National Missionary Baptist Convention of America</Choice>
+				<Choice value="Old Order Amish Church">Old Order Amish Church</Choice>
+				<Choice value="Orthodox Church in America">Orthodox Church in America</Choice>
+				<Choice value="Pentecostal Assemblies of the World, Inc.">Pentecostal Assemblies of the World, Inc.</Choice>
+				<Choice value="Pentecostal Church of God">Pentecostal Church of God</Choice>
+				<Choice value="Presbyterian Church in America">Presbyterian Church in America</Choice>
+				<Choice value="Presbyterian Church (U.S.A.)">Presbyterian Church (U.S.A.)</Choice>
+				<Choice value="Progressive National Baptist Convention, Inc.">Progressive National Baptist Convention, Inc.</Choice>
+				<Choice value="Reformed Church in America">Reformed Church in America</Choice>
+				<Choice value="Religious Society of Friends (Conservative)">Religious Society of Friends (Conservative)</Choice>
+				<Choice value="Reorganized Church of Jesus Christ of Latter Day Saints">Reorganized Church of Jesus Christ of Latter Day Saints</Choice>
+				<Choice value="Roman Catholic Church, The">Roman Catholic Church, The</Choice>
+				<Choice value="Romanian Orthodox Episcopate of America, The">Romanian Orthodox Episcopate of America, The</Choice>
+				<Choice value="Salvation Army, The">Salvation Army,The</Choice>
+				<Choice value="Serbian Orthodox Church in the U.S.A. and Canada">Serbian Orthodox Church in the U.S.A. and Canada</Choice>
+				<Choice value="Seventh-day Adventist Church">Seventh-day Adventist Church</Choice>
+				<Choice value="Sikh">Sikh</Choice>
+				<Choice value="Southern Baptist Convention">Southern Baptist Convention</Choice>
+				<Choice value="Unitarian Universalist">Unitarian Universalist</Choice>
+				<Choice value="United Church of Christ">United Church of Christ</Choice>
+				<Choice value="United Methodist Church, The">United Methodist Church, The</Choice>
+				<Choice value="Wesleyan Church, The">Wesleyan Church, The</Choice>
+				<Choice value="Wisconsin Evangelical Lutheran Synod">Wisconsin Evangelical Lutheran Synod</Choice>
+				<Choice value="Other">Other</Choice>
+			</Choices>
+			<Dep>
+				<Question type="choice" render="dropselect" ID="religionid" required="" cond="religion!=.;religion!=None;religion!=Atheist;religion!=Agnostic">
+					<Text>Religiosity</Text>
+					<Choices>
+						<Choice value=".">.</Choice>
+						<Choice value="4">strongly religious</Choice>
+						<Choice value="3">moderately religious</Choice>
+						<Choice value="2">slightly religious</Choice>
+						<Choice value="1">not at all religious</Choice>
+					</Choices>
+				</Question>
+			</Dep>
+		</Question>
+		<Question type="choice" render="dropselect" ID="edu" required="" dependent="major;major2">
+			<Text>Education</Text>
+			<Choices>
+				<Choice value=".">.</Choice>
+				<Choice value="1">elementary school</Choice>
+				<Choice value="2">junior high</Choice>
+				<Choice value="3">some high school</Choice>
+				<Choice value="4">high school graduate</Choice>
+				<Choice value="5">some college</Choice>
+				<Choice value="6">associate's degree</Choice>
+				<Choice value="7">bachelor's degree</Choice>
+				<Choice value="8">some graduate school</Choice>
+				<Choice value="9">master's degree</Choice>
+				<Choice value="14">M.B.A.</Choice>
+				<Choice value="10">J.D.</Choice>
+				<Choice value="11">M.D.</Choice>
+				<Choice value="12">Ph.D.</Choice>
+				<Choice value="13">other advanced degree</Choice>
+			</Choices>
+			<Dep>
+				<Question type="choice" render="dropselect" ID="major" required="" cond="edu=5;edu=6;edu=7;edu=8;edu=9;edu=10;edu=11;edu=12;edu=13;edu=14">
+					 <Text>Major field of study or that of your highest degree</Text>
+					 <Choices>
+						<Choice value=".">.</Choice>
+						<Choice value="1">Biological sciences/life sciences</Choice>
+						<Choice value="2">Business</Choice>				
+						<Choice value="3">Communications</Choice>				
+						<Choice value="4">Computer and information sciences</Choice>			
+						<Choice value="5">Education</Choice>
+						<Choice value="6">Engineering, mathematics, or physical sciences/science technologies</Choice>
+						<Choice value="7">Health professions or related sciences</Choice>
+						<Choice value="8">Humanities/liberal arts</Choice>
+						<Choice value="9">Law or legal studies</Choice>
+						<Choice value="10">Psychology</Choice>
+						<Choice value="11">Social sciences or history</Choice>
+						<Choice value="12">Visual or performing arts</Choice>
+						<Choice value="13">Other</Choice>
+					 </Choices>
+				 </Question>
+				 <Question type="choice" render="dropselect" ID="major2" required="" cond="edu=5;edu=6;edu=7;edu=8;edu=9;edu=10;edu=11;edu=12;edu=13;edu=14">
+					 <Text>If you have a second major or a minor, please indicate the field of study</Text>
+					 <Choices>
+						<Choice value=".">.</Choice>
+						<Choice value="1">Biological sciences/life sciences</Choice>
+						<Choice value="2">Business</Choice>				
+						<Choice value="3">Communications</Choice>				
+						<Choice value="4">Computer and information sciences</Choice>			
+						<Choice value="5">Education</Choice>
+						<Choice value="6">Engineering, mathematics, or physical sciences/science technologies</Choice>
+						<Choice value="7">Health professions or related sciences</Choice>
+						<Choice value="8">Humanities/liberal arts</Choice>
+						<Choice value="9">Law or legal studies</Choice>
+						<Choice value="10">Psychology</Choice>
+						<Choice value="11">Social sciences or history</Choice>
+						<Choice value="12">Visual or performing arts</Choice>
+						<Choice value="13">Other</Choice>
+					 </Choices>
+				 </Question>
+			</Dep>
+		</Question>
+		<Question type="choice" render="dropselect" ID="countrycit" required="">
+			<Text>Country/Region of Primary Citizenship</Text>
+			<Choices>
+				<Choice value=".">.</Choice>
+				<Choice value="US">U.S.A.</Choice>
+				<Choice value="AF">Afghanistan</Choice>
+				<Choice value="AL">Albania</Choice>
+				<Choice value="DZ">Algeria</Choice>
+				<Choice value="AS">American Samoa</Choice>
+				<Choice value="AD">Andorra</Choice>
+				<Choice value="AO">Angola</Choice>
+				<Choice value="AI">Anguilla</Choice>
+				<Choice value="AQ">Antarctica</Choice>
+				<Choice value="AG">Antigua And Barbuda</Choice>
+				<Choice value="AR">Argentina</Choice>
+				<Choice value="AM">Armenia</Choice>
+				<Choice value="AW">Aruba</Choice>
+				<Choice value="AU">Australia</Choice>
+				<Choice value="AT">Austria</Choice>
+				<Choice value="AZ">Azerbaijan</Choice>
+				<Choice value="BS">Bahamas, The</Choice>
+				<Choice value="BH">Bahrain</Choice>
+				<Choice value="BD">Bangladesh</Choice>
+				<Choice value="BB">Barbados</Choice>
+				<Choice value="BY">Belarus</Choice>
+				<Choice value="BE">Belgium</Choice>
+				<Choice value="BZ">Belize</Choice>
+				<Choice value="BJ">Benin</Choice>
+				<Choice value="BM">Bermuda</Choice>
+				<Choice value="BT">Bhutan</Choice>
+				<Choice value="BO">Bolivia</Choice>
+				<Choice value="BA">Bosnia and Herzegovina</Choice>
+				<Choice value="BW">Botswana</Choice>
+				<Choice value="BV">Bouvet Island</Choice>
+				<Choice value="BR">Brazil</Choice>
+				<Choice value="IO">British Indian Ocean Territory</Choice>
+				<Choice value="BN">Brunei</Choice>
+				<Choice value="BG">Bulgaria</Choice>
+				<Choice value="BF">Burkina Faso</Choice>
+				<Choice value="BI">Burundi</Choice>
+				<Choice value="KH">Cambodia</Choice>
+				<Choice value="CM">Cameroon</Choice>
+				<Choice value="CA">Canada</Choice>
+				<Choice value="CV">Cape Verde</Choice>
+				<Choice value="KY">Cayman Islands</Choice>
+				<Choice value="CF">Central African Republic</Choice>
+				<Choice value="TD">Chad</Choice>
+				<Choice value="CL">Chile</Choice>
+				<Choice value="CN">China</Choice>
+				<Choice value="CX">Christmas Island</Choice>
+				<Choice value="CC">Cocos (Keeling) Islands</Choice>
+				<Choice value="CO">Colombia</Choice>
+				<Choice value="KM">Comoros</Choice>
+				<Choice value="CG">Congo</Choice>
+				<Choice value="CD">Congo, Democratic Republic of the</Choice>
+				<Choice value="CK">Cook Islands</Choice>
+				<Choice value="CR">Costa Rica</Choice>
+				<Choice value="CI">Cote D'Ivoire (Ivory Coast)</Choice>
+				<Choice value="HR">Croatia (Hrvatska)</Choice>
+				<Choice value="CU">Cuba</Choice>
+				<Choice value="CY">Cyprus</Choice>
+				<Choice value="CZ">Czech Republic</Choice>
+				<Choice value="DK">Denmark</Choice>
+				<Choice value="DJ">Djibouti</Choice>
+				<Choice value="DM">Dominica</Choice>
+				<Choice value="DO">Dominican Republic</Choice>
+				<Choice value="TP">East Timor</Choice>
+				<Choice value="EC">Ecuador</Choice>
+				<Choice value="EG">Egypt</Choice>
+				<Choice value="SV">El Salvador</Choice>
+				<Choice value="GQ">Equatorial Guinea</Choice>
+				<Choice value="ER">Eritrea</Choice>
+				<Choice value="EE">Estonia</Choice>
+				<Choice value="ET">Ethiopia</Choice>
+				<Choice value="FK">Falkland Islands (Islas Malvinas)</Choice>
+				<Choice value="FO">Faroe Islands</Choice>
+				<Choice value="FJ">Fiji Islands</Choice>
+				<Choice value="FI">Finland</Choice>
+				<Choice value="FR">France</Choice>
+				<Choice value="GF">French Guiana</Choice>
+				<Choice value="PF">French Polynesia</Choice>
+				<Choice value="TF">French Southern Territories</Choice>
+				<Choice value="GA">Gabon</Choice>
+				<Choice value="GM">Gambia, The</Choice>
+				<Choice value="GE">Georgia</Choice>
+				<Choice value="DE">Germany</Choice>
+				<Choice value="GH">Ghana</Choice>
+				<Choice value="GI">Gibraltar</Choice>
+				<Choice value="GR">Greece</Choice>
+				<Choice value="GL">Greenland</Choice>
+				<Choice value="GD">Grenada</Choice>
+				<Choice value="GP">Guadeloupe</Choice>
+				<Choice value="GU">Guam</Choice>
+				<Choice value="GT">Guatemala</Choice>
+				<Choice value="GN">Guinea</Choice>
+				<Choice value="GW">Guinea-Bissau</Choice>
+				<Choice value="GY">Guyana</Choice>
+				<Choice value="HT">Haiti</Choice>
+				<Choice value="HM">Heard and McDonald Islands</Choice>
+				<Choice value="HN">Honduras</Choice>
+				<Choice value="HK">Hong Kong S.A.R.</Choice>
+				<Choice value="HU">Hungary</Choice>
+				<Choice value="IS">Iceland</Choice>
+				<Choice value="IN">India</Choice>
+				<Choice value="ID">Indonesia</Choice>
+				<Choice value="IR">Iran</Choice>
+				<Choice value="IQ">Iraq</Choice>
+				<Choice value="IE">Ireland</Choice>
+				<Choice value="IL">Israel</Choice>
+				<Choice value="IT">Italy</Choice>
+				<Choice value="JM">Jamaica</Choice>
+				<Choice value="JP">Japan</Choice>
+				<Choice value="JO">Jordan</Choice>
+				<Choice value="KZ">Kazakhstan</Choice>
+				<Choice value="KE">Kenya</Choice>
+				<Choice value="KI">Kiribati</Choice>
+				<Choice value="KR">Korea</Choice>
+				<Choice value="KP">Korea, North</Choice>
+				<Choice value="KW">Kuwait</Choice>
+				<Choice value="KG">Kyrgyzstan</Choice>
+				<Choice value="LA">Laos</Choice>
+				<Choice value="LV">Latvia</Choice>
+				<Choice value="LB">Lebanon</Choice>
+				<Choice value="LS">Lesotho</Choice>
+				<Choice value="LR">Liberia</Choice>
+				<Choice value="LY">Libya</Choice>
+				<Choice value="LI">Liechtenstein</Choice>
+				<Choice value="LT">Lithuania</Choice>
+				<Choice value="LU">Luxembourg</Choice>
+				<Choice value="MO">Macau S.A.R.</Choice>
+				<Choice value="MK">Macedonia, Former Yugoslav Republic of</Choice>
+				<Choice value="MG">Madagascar</Choice>
+				<Choice value="MW">Malawi</Choice>
+				<Choice value="MY">Malaysia</Choice>
+				<Choice value="MV">Maldives</Choice>
+				<Choice value="ML">Mali</Choice>
+				<Choice value="MT">Malta</Choice>
+				<Choice value="MH">Marshall Islands</Choice>
+				<Choice value="MQ">Martinique</Choice>
+				<Choice value="MR">Mauritania</Choice>
+				<Choice value="MU">Mauritius</Choice>
+				<Choice value="YT">Mayotte</Choice>
+				<Choice value="MX">Mexico</Choice>
+				<Choice value="FM">Micronesia</Choice>
+				<Choice value="MD">Moldova</Choice>
+				<Choice value="MC">Monaco</Choice>
+				<Choice value="MN">Mongolia</Choice>
+				<Choice value="MS">Montserrat</Choice>
+				<Choice value="MA">Morocco</Choice>
+				<Choice value="MZ">Mozambique</Choice>
+				<Choice value="MM">Myanmar</Choice>
+				<Choice value="NA">Namibia</Choice>
+				<Choice value="NR">Nauru</Choice>
+				<Choice value="NP">Nepal</Choice>
+				<Choice value="AN">Netherlands Antilles</Choice>
+				<Choice value="NL">Netherlands, The</Choice>
+				<Choice value="NC">New Caledonia</Choice>
+				<Choice value="NZ">New Zealand</Choice>
+				<Choice value="NI">Nicaragua</Choice>
+				<Choice value="NE">Niger</Choice>
+				<Choice value="NG">Nigeria</Choice>
+				<Choice value="NU">Niue</Choice>
+				<Choice value="NF">Norfolk Island</Choice>
+				<Choice value="MP">Northern Mariana Islands</Choice>
+				<Choice value="NO">Norway</Choice>
+				<Choice value="OM">Oman</Choice>
+				<Choice value="PK">Pakistan</Choice>
+				<Choice value="PW">Palau</Choice>
+				<Choice value="PA">Panama</Choice>
+				<Choice value="PG">Papua New Guinea</Choice>
+				<Choice value="PY">Paraguay</Choice>
+				<Choice value="PE">Peru</Choice>
+				<Choice value="PH">Philippines</Choice>
+				<Choice value="PN">Pitcairn Island</Choice>
+				<Choice value="PL">Poland</Choice>
+				<Choice value="PT">Portugal</Choice>
+				<Choice value="PR">Puerto Rico</Choice>
+				<Choice value="QA">Qatar</Choice>
+				<Choice value="RE">Reunion</Choice>
+				<Choice value="RO">Romania</Choice>
+				<Choice value="RU">Russia</Choice>
+				<Choice value="RW">Rwanda</Choice>
+				<Choice value="SH">Saint Helena</Choice>
+				<Choice value="KN">Saint Kitts And Nevis</Choice>
+				<Choice value="LC">Saint Lucia</Choice>
+				<Choice value="PM">Saint Pierre and Miquelon</Choice>
+				<Choice value="VC">Saint Vincent And The Grenadines</Choice>
+				<Choice value="WS">Samoa</Choice>
+				<Choice value="SM">San Marino</Choice>
+				<Choice value="ST">Sao Tome and Principe</Choice>
+				<Choice value="SA">Saudi Arabia</Choice>
+				<Choice value="SN">Senegal</Choice>
+				<Choice value="SC">Seychelles</Choice>
+				<Choice value="SL">Sierra Leone</Choice>
+				<Choice value="SG">Singapore</Choice>
+				<Choice value="SK">Slovakia</Choice>
+				<Choice value="SI">Slovenia</Choice>
+				<Choice value="SB">Solomon Islands</Choice>
+				<Choice value="SO">Somalia</Choice>
+				<Choice value="ZA">South Africa</Choice>
+				<Choice value="GS">South Georgia And The South Sandwich Islands</Choice>
+				<Choice value="ES">Spain</Choice>
+				<Choice value="LK">Sri Lanka</Choice>
+				<Choice value="SD">Sudan</Choice>
+				<Choice value="SR">Suriname</Choice>
+				<Choice value="SJ">Svalbard And Jan Mayen Islands</Choice>
+				<Choice value="SZ">Swaziland</Choice>
+				<Choice value="SE">Sweden</Choice>
+				<Choice value="CH">Switzerland</Choice>
+				<Choice value="SY">Syria</Choice>
+				<Choice value="TW">Taiwan</Choice>
+				<Choice value="TJ">Tajikistan</Choice>
+				<Choice value="TZ">Tanzania</Choice>
+				<Choice value="TH">Thailand</Choice>
+				<Choice value="TG">Togo</Choice>
+				<Choice value="TK">Tokelau</Choice>
+				<Choice value="TO">Tonga</Choice>
+				<Choice value="TT">Trinidad And Tobago</Choice>
+				<Choice value="TN">Tunisia</Choice>
+				<Choice value="TR">Turkey</Choice>
+				<Choice value="TM">Turkmenistan</Choice>
+				<Choice value="TC">Turks And Caicos Islands</Choice>
+				<Choice value="TV">Tuvalu</Choice>
+				<Choice value="UG">Uganda</Choice>
+				<Choice value="UA">Ukraine</Choice>
+				<Choice value="AE">United Arab Emirates</Choice>
+				<Choice value="UK">United Kingdom</Choice>
+				<Choice value="US">U.S.A.</Choice>
+				<Choice value="UM">United States Minor Outlying Islands</Choice>
+				<Choice value="UY">Uruguay</Choice>
+				<Choice value="UZ">Uzbekistan</Choice>
+				<Choice value="VU">Vanuatu</Choice>
+				<Choice value="VA">Vatican City State (Holy See)</Choice>
+				<Choice value="VE">Venezuela</Choice>
+				<Choice value="VN">Vietnam</Choice>
+				<Choice value="VG">Virgin Islands (British)</Choice>
+				<Choice value="VI">Virgin Islands (US)</Choice>
+				<Choice value="WF">Wallis And Futuna Islands</Choice>
+				<Choice value="YE">Yemen</Choice>
+				<Choice value="YU">Yugoslavia</Choice>
+				<Choice value="ZM">Zambia</Choice>
+				<Choice value="ZW">Zimbabwe</Choice>
+			</Choices>
+		</Question>
+		<Question type="choice" render="dropselect" ID="countryres" required="">
+			<Text>Country/Region of Residence</Text>
+			<Choices>
+				<Choice value=".">.</Choice>
+				<Choice value="US">U.S.A.</Choice>
+				<Choice value="AF">Afghanistan</Choice>
+				<Choice value="AL">Albania</Choice>
+				<Choice value="DZ">Algeria</Choice>
+				<Choice value="AS">American Samoa</Choice>
+				<Choice value="AD">Andorra</Choice>
+				<Choice value="AO">Angola</Choice>
+				<Choice value="AI">Anguilla</Choice>
+				<Choice value="AQ">Antarctica</Choice>
+				<Choice value="AG">Antigua And Barbuda</Choice>
+				<Choice value="AR">Argentina</Choice>
+				<Choice value="AM">Armenia</Choice>
+				<Choice value="AW">Aruba</Choice>
+				<Choice value="AU">Australia</Choice>
+				<Choice value="AT">Austria</Choice>
+				<Choice value="AZ">Azerbaijan</Choice>
+				<Choice value="BS">Bahamas, The</Choice>
+				<Choice value="BH">Bahrain</Choice>
+				<Choice value="BD">Bangladesh</Choice>
+				<Choice value="BB">Barbados</Choice>
+				<Choice value="BY">Belarus</Choice>
+				<Choice value="BE">Belgium</Choice>
+				<Choice value="BZ">Belize</Choice>
+				<Choice value="BJ">Benin</Choice>
+				<Choice value="BM">Bermuda</Choice>
+				<Choice value="BT">Bhutan</Choice>
+				<Choice value="BO">Bolivia</Choice>
+				<Choice value="BA">Bosnia and Herzegovina</Choice>
+				<Choice value="BW">Botswana</Choice>
+				<Choice value="BV">Bouvet Island</Choice>
+				<Choice value="BR">Brazil</Choice>
+				<Choice value="IO">British Indian Ocean Territory</Choice>
+				<Choice value="BN">Brunei</Choice>
+				<Choice value="BG">Bulgaria</Choice>
+				<Choice value="BF">Burkina Faso</Choice>
+				<Choice value="BI">Burundi</Choice>
+				<Choice value="KH">Cambodia</Choice>
+				<Choice value="CM">Cameroon</Choice>
+				<Choice value="CA">Canada</Choice>
+				<Choice value="CV">Cape Verde</Choice>
+				<Choice value="KY">Cayman Islands</Choice>
+				<Choice value="CF">Central African Republic</Choice>
+				<Choice value="TD">Chad</Choice>
+				<Choice value="CL">Chile</Choice>
+				<Choice value="CN">China</Choice>
+				<Choice value="CX">Christmas Island</Choice>
+				<Choice value="CC">Cocos (Keeling) Islands</Choice>
+				<Choice value="CO">Colombia</Choice>
+				<Choice value="KM">Comoros</Choice>
+				<Choice value="CG">Congo</Choice>
+				<Choice value="CD">Congo, Democratic Republic of the</Choice>
+				<Choice value="CK">Cook Islands</Choice>
+				<Choice value="CR">Costa Rica</Choice>
+				<Choice value="CI">Cote D'Ivoire (Ivory Coast)</Choice>
+				<Choice value="HR">Croatia (Hrvatska)</Choice>
+				<Choice value="CU">Cuba</Choice>
+				<Choice value="CY">Cyprus</Choice>
+				<Choice value="CZ">Czech Republic</Choice>
+				<Choice value="DK">Denmark</Choice>
+				<Choice value="DJ">Djibouti</Choice>
+				<Choice value="DM">Dominica</Choice>
+				<Choice value="DO">Dominican Republic</Choice>
+				<Choice value="TP">East Timor</Choice>
+				<Choice value="EC">Ecuador</Choice>
+				<Choice value="EG">Egypt</Choice>
+				<Choice value="SV">El Salvador</Choice>
+				<Choice value="GQ">Equatorial Guinea</Choice>
+				<Choice value="ER">Eritrea</Choice>
+				<Choice value="EE">Estonia</Choice>
+				<Choice value="ET">Ethiopia</Choice>
+				<Choice value="FK">Falkland Islands (Islas Malvinas)</Choice>
+				<Choice value="FO">Faroe Islands</Choice>
+				<Choice value="FJ">Fiji Islands</Choice>
+				<Choice value="FI">Finland</Choice>
+				<Choice value="FR">France</Choice>
+				<Choice value="GF">French Guiana</Choice>
+				<Choice value="PF">French Polynesia</Choice>
+				<Choice value="TF">French Southern Territories</Choice>
+				<Choice value="GA">Gabon</Choice>
+				<Choice value="GM">Gambia, The</Choice>
+				<Choice value="GE">Georgia</Choice>
+				<Choice value="DE">Germany</Choice>
+				<Choice value="GH">Ghana</Choice>
+				<Choice value="GI">Gibraltar</Choice>
+				<Choice value="GR">Greece</Choice>
+				<Choice value="GL">Greenland</Choice>
+				<Choice value="GD">Grenada</Choice>
+				<Choice value="GP">Guadeloupe</Choice>
+				<Choice value="GU">Guam</Choice>
+				<Choice value="GT">Guatemala</Choice>
+				<Choice value="GN">Guinea</Choice>
+				<Choice value="GW">Guinea-Bissau</Choice>
+				<Choice value="GY">Guyana</Choice>
+				<Choice value="HT">Haiti</Choice>
+				<Choice value="HM">Heard and McDonald Islands</Choice>
+				<Choice value="HN">Honduras</Choice>
+				<Choice value="HK">Hong Kong S.A.R.</Choice>
+				<Choice value="HU">Hungary</Choice>
+				<Choice value="IS">Iceland</Choice>
+				<Choice value="IN">India</Choice>
+				<Choice value="ID">Indonesia</Choice>
+				<Choice value="IR">Iran</Choice>
+				<Choice value="IQ">Iraq</Choice>
+				<Choice value="IE">Ireland</Choice>
+				<Choice value="IL">Israel</Choice>
+				<Choice value="IT">Italy</Choice>
+				<Choice value="JM">Jamaica</Choice>
+				<Choice value="JP">Japan</Choice>
+				<Choice value="JO">Jordan</Choice>
+				<Choice value="KZ">Kazakhstan</Choice>
+				<Choice value="KE">Kenya</Choice>
+				<Choice value="KI">Kiribati</Choice>
+				<Choice value="KR">Korea</Choice>
+				<Choice value="KP">Korea, North</Choice>
+				<Choice value="KW">Kuwait</Choice>
+				<Choice value="KG">Kyrgyzstan</Choice>
+				<Choice value="LA">Laos</Choice>
+				<Choice value="LV">Latvia</Choice>
+				<Choice value="LB">Lebanon</Choice>
+				<Choice value="LS">Lesotho</Choice>
+				<Choice value="LR">Liberia</Choice>
+				<Choice value="LY">Libya</Choice>
+				<Choice value="LI">Liechtenstein</Choice>
+				<Choice value="LT">Lithuania</Choice>
+				<Choice value="LU">Luxembourg</Choice>
+				<Choice value="MO">Macau S.A.R.</Choice>
+				<Choice value="MK">Macedonia, Former Yugoslav Republic of</Choice>
+				<Choice value="MG">Madagascar</Choice>
+				<Choice value="MW">Malawi</Choice>
+				<Choice value="MY">Malaysia</Choice>
+				<Choice value="MV">Maldives</Choice>
+				<Choice value="ML">Mali</Choice>
+				<Choice value="MT">Malta</Choice>
+				<Choice value="MH">Marshall Islands</Choice>
+				<Choice value="MQ">Martinique</Choice>
+				<Choice value="MR">Mauritania</Choice>
+				<Choice value="MU">Mauritius</Choice>
+				<Choice value="YT">Mayotte</Choice>
+				<Choice value="MX">Mexico</Choice>
+				<Choice value="FM">Micronesia</Choice>
+				<Choice value="MD">Moldova</Choice>
+				<Choice value="MC">Monaco</Choice>
+				<Choice value="MN">Mongolia</Choice>
+				<Choice value="MS">Montserrat</Choice>
+				<Choice value="MA">Morocco</Choice>
+				<Choice value="MZ">Mozambique</Choice>
+				<Choice value="MM">Myanmar</Choice>
+				<Choice value="NA">Namibia</Choice>
+				<Choice value="NR">Nauru</Choice>
+				<Choice value="NP">Nepal</Choice>
+				<Choice value="AN">Netherlands Antilles</Choice>
+				<Choice value="NL">Netherlands, The</Choice>
+				<Choice value="NC">New Caledonia</Choice>
+				<Choice value="NZ">New Zealand</Choice>
+				<Choice value="NI">Nicaragua</Choice>
+				<Choice value="NE">Niger</Choice>
+				<Choice value="NG">Nigeria</Choice>
+				<Choice value="NU">Niue</Choice>
+				<Choice value="NF">Norfolk Island</Choice>
+				<Choice value="MP">Northern Mariana Islands</Choice>
+				<Choice value="NO">Norway</Choice>
+				<Choice value="OM">Oman</Choice>
+				<Choice value="PK">Pakistan</Choice>
+				<Choice value="PW">Palau</Choice>
+				<Choice value="PA">Panama</Choice>
+				<Choice value="PG">Papua New Guinea</Choice>
+				<Choice value="PY">Paraguay</Choice>
+				<Choice value="PE">Peru</Choice>
+				<Choice value="PH">Philippines</Choice>
+				<Choice value="PN">Pitcairn Island</Choice>
+				<Choice value="PL">Poland</Choice>
+				<Choice value="PT">Portugal</Choice>
+				<Choice value="PR">Puerto Rico</Choice>
+				<Choice value="QA">Qatar</Choice>
+				<Choice value="RE">Reunion</Choice>
+				<Choice value="RO">Romania</Choice>
+				<Choice value="RU">Russia</Choice>
+				<Choice value="RW">Rwanda</Choice>
+				<Choice value="SH">Saint Helena</Choice>
+				<Choice value="KN">Saint Kitts And Nevis</Choice>
+				<Choice value="LC">Saint Lucia</Choice>
+				<Choice value="PM">Saint Pierre and Miquelon</Choice>
+				<Choice value="VC">Saint Vincent And The Grenadines</Choice>
+				<Choice value="WS">Samoa</Choice>
+				<Choice value="SM">San Marino</Choice>
+				<Choice value="ST">Sao Tome and Principe</Choice>
+				<Choice value="SA">Saudi Arabia</Choice>
+				<Choice value="SN">Senegal</Choice>
+				<Choice value="SC">Seychelles</Choice>
+				<Choice value="SL">Sierra Leone</Choice>
+				<Choice value="SG">Singapore</Choice>
+				<Choice value="SK">Slovakia</Choice>
+				<Choice value="SI">Slovenia</Choice>
+				<Choice value="SB">Solomon Islands</Choice>
+				<Choice value="SO">Somalia</Choice>
+				<Choice value="ZA">South Africa</Choice>
+				<Choice value="GS">South Georgia And The South Sandwich Islands</Choice>
+				<Choice value="ES">Spain</Choice>
+				<Choice value="LK">Sri Lanka</Choice>
+				<Choice value="SD">Sudan</Choice>
+				<Choice value="SR">Suriname</Choice>
+				<Choice value="SJ">Svalbard And Jan Mayen Islands</Choice>
+				<Choice value="SZ">Swaziland</Choice>
+				<Choice value="SE">Sweden</Choice>
+				<Choice value="CH">Switzerland</Choice>
+				<Choice value="SY">Syria</Choice>
+				<Choice value="TW">Taiwan</Choice>
+				<Choice value="TJ">Tajikistan</Choice>
+				<Choice value="TZ">Tanzania</Choice>
+				<Choice value="TH">Thailand</Choice>
+				<Choice value="TG">Togo</Choice>
+				<Choice value="TK">Tokelau</Choice>
+				<Choice value="TO">Tonga</Choice>
+				<Choice value="TT">Trinidad And Tobago</Choice>
+				<Choice value="TN">Tunisia</Choice>
+				<Choice value="TR">Turkey</Choice>
+				<Choice value="TM">Turkmenistan</Choice>
+				<Choice value="TC">Turks And Caicos Islands</Choice>
+				<Choice value="TV">Tuvalu</Choice>
+				<Choice value="UG">Uganda</Choice>
+				<Choice value="UA">Ukraine</Choice>
+				<Choice value="AE">United Arab Emirates</Choice>
+				<Choice value="UK">United Kingdom</Choice>
+				<Choice value="US">U.S.A.</Choice>
+				<Choice value="UM">United States Minor Outlying Islands</Choice>
+				<Choice value="UY">Uruguay</Choice>
+				<Choice value="UZ">Uzbekistan</Choice>
+				<Choice value="VU">Vanuatu</Choice>
+				<Choice value="VA">Vatican City State (Holy See)</Choice>
+				<Choice value="VE">Venezuela</Choice>
+				<Choice value="VN">Vietnam</Choice>
+				<Choice value="VG">Virgin Islands (British)</Choice>
+				<Choice value="VI">Virgin Islands (US)</Choice>
+				<Choice value="WF">Wallis And Futuna Islands</Choice>
+				<Choice value="YE">Yemen</Choice>
+				<Choice value="YU">Yugoslavia</Choice>
+				<Choice value="ZM">Zambia</Choice>
+				<Choice value="ZW">Zimbabwe</Choice>
+			</Choices>
+		</Question>
+	</Block>
+	<Block Name="postal" columns="2">
+		<Question ID="postcodenow" type="text" render="freeresponse" required="">
+			<Text>Current Postal Code</Text>
+		</Question>
+		<Question ID="postcodelong" type="text" render="freeresponse" required="">
+			<Text>Postal code where you've lived longest</Text>
+		</Question>
+	</Block>
+</Questionnaire>

@@ -1,0 +1,45 @@
+<Study id="Demo.GenderScience" datagroup="std" hotLinkRedirect="/implicit/demo/">
+	<Definitions>
+		<Task id="startpage">/common/en-us/html/Instructions.jsp</Task>
+		<Task id="intro">/user/education/genderscience/intro.html</Task>
+		<Task id="instructions">/user/education/genderscience/instructions.html</Task>
+		<Task id="demographics" type="xform">/user/education/genderscience/demographics.xml</Task>
+		<Task id="questionnaire" type="xform">/user/education/genderscience/questionnaire.xml</Task>
+		<Task id="iata" file="/user/education/genderscience/gendera.xml">/common/en-us/html/IATTask.jsp</Task>
+		<Task id="iatb" file="/user/education/genderscience/genderb.xml">/common/en-us/html/IATTask.jsp</Task>
+		<Task id="iatc" file="/user/education/genderscience/genderc.xml">/common/en-us/html/IATTask.jsp</Task>
+		<Task id="iatd" file="/user/education/genderscience/genderd.xml">/common/en-us/html/IATTask.jsp</Task>
+		
+	 <!-- added on Oct 3 00 hours for the first time -->
+	 
+		<Task id="iatnewa" file="gendernewa.xml"  properties="iatdefault.xml">/common/en-us/html/iattask6.700525.jsp</Task>
+		<Task id="iatnewb" file="gendernewb.xml"  properties="iatdefault.xml">/common/en-us/html/iattask6.700525.jsp</Task>
+		<Task id="iatnewc" file="gendernewc.xml"  properties="iatdefault.xml">/common/en-us/html/iattask6.700525.jsp</Task>
+		<Task id="iatnewd" file="gendernewd.xml"  properties="iatdefault.xml">/common/en-us/html/iattask6.700525.jsp</Task>
+		
+		<Task id="debriefing1">/user/education/genderscience/debriefing1.jsp</Task>
+		<Task id="debriefing2">/user/education/genderscience/debriefing2.jsp</Task>
+	</Definitions>
+	<Map>
+		<Task id="startpage"/>
+		<Task id="intro"/>
+		<Branch type="group" id="random1" random="true">
+			<Task id="instructions">
+				<Branch type="group" select="1" id="random2">
+					<Task id="iata"/>
+					<Task id="iatnewa"/>
+					<Task id="iatb"/>
+					<Task id="iatnewb"/>
+					<Task id="iatc"/>
+					<Task id="iatnewc"/>
+					<Task id="iatd"/>
+			    <Task id="iatnewd"/>
+				</Branch>
+			</Task>
+			<Task id="questionnaire"/>
+			<Task id="demographics"/>
+		</Branch>
+		<Task id="debriefing1"/>
+		<Task id="debriefing2"/>
+	</Map>
+</Study>

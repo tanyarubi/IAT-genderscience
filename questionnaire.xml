@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Questionnaire ID="1" name="GenderScience">
+	<Block Name="block1" columns="2">
+		<Text>Please rate how much you associate the following domains with males or females.</Text>
+		<Question type="choice" render="dropselect" ID="Lscience" required="">
+			<Text>Science</Text>
+			<Choices>
+				<Choice value=".">.</Choice>
+				<Choice value="7">Strongly male</Choice>
+				<Choice value="6">Moderately male</Choice>
+				<Choice value="5">Slightly male</Choice>
+				<Choice value="4">Neither male nor female</Choice>
+				<Choice value="3">Slightly female</Choice>
+				<Choice value="2">Moderately female</Choice>
+				<Choice value="1">Strongly female</Choice>
+			</Choices>
+		</Question>
+		<Question type="choice" render="dropselect" ID="Larts" required="">
+			<Text>Liberal Arts</Text>
+			<Choices>
+				<Choice value=".">.</Choice>
+				<Choice value="7">Strongly male</Choice>
+				<Choice value="6">Moderately male</Choice>
+				<Choice value="5">Slightly male</Choice>
+				<Choice value="4">Neither male nor female</Choice>
+				<Choice value="3">Slightly female</Choice>
+				<Choice value="2">Moderately female</Choice>
+				<Choice value="1">Strongly female</Choice>
+			</Choices>
+		</Question>
+	</Block>
+    <Block Name="block2" columns="1">
+		<Question type="choice" render="dropselect" ID="science" required="">
+			<Text>Please rate your attitude toward science.</Text>
+			<Choices>
+				<Choice value=".">.</Choice>
+				<Choice value="5">strongly like</Choice>
+				<Choice value="4">like</Choice>
+				<Choice value="3">neither like or dislike</Choice>
+				<Choice value="2">dislike</Choice>
+				<Choice value="1">strongly dislike</Choice>
+			</Choices>
+		</Question>
+		<Question type="choice" render="dropselect" ID="arts" required="">
+			<Text>Please rate your attitude toward liberal arts</Text>
+			<Choices>
+				<Choice value=".">.</Choice>
+				<Choice value="5">strongly like</Choice>
+				<Choice value="4">like</Choice>
+				<Choice value="3">neither like or dislike</Choice>
+				<Choice value="2">dislike</Choice>
+				<Choice value="1">strongly dislike</Choice>
+			</Choices>
+		</Question>
+	</Block>
+
+	<Random>
+        <Block Name="block2" columns="1">
+            <Question type="choice" render="dropselect" ID="likesci" required="">
+                <Text>In your education experience, how much have you liked studying science?</Text>
+                <Choices>
+                    <Choice value=".">.</Choice>
+                    <Choice value="5">strongly liked</Choice>
+                    <Choice value="4">liked</Choice>
+                    <Choice value="3">neither liked or disliked</Choice>
+                    <Choice value="2">disliked</Choice>
+                    <Choice value="1">strongly disliked</Choice>
+                </Choices>
+            </Question>
+            <Question type="choice" render="dropselect" ID="likeart" required="">
+                <Text>In your education experience, how much have you liked studying liberal arts?</Text>
+                <Choices>
+                    <Choice value=".">.</Choice>
+                    <Choice value="5">strongly liked</Choice>
+                    <Choice value="4">liked</Choice>
+                    <Choice value="3">neither liked or disliked</Choice>
+                    <Choice value="2">disliked</Choice>
+                    <Choice value="1">strongly disliked</Choice>
+                </Choices>
+            </Question>
+        </Block>
+		<Block Name="block5" columns="1">
+			<Text>Women hold a smaller portion of the science and engineering faculty positions at top research universities than do men. The following factors are sometimes offered as reasons for this difference.  Please rate how important you think each factor is for explaining this difference.</Text>
+			<Random maxSelected="4">
+				<Question type="choice" render="dropselect" ID="factorhighpower" required="">
+					<Text>On average, men and women differ in their willingness to devote the time required by such "high-powered" positions.</Text>
+					<Choices>
+						<Choice value=".">.</Choice>
+				<Choice value="5">Extremely important</Choice>
+				<Choice value="4">Very important</Choice>
+				<Choice value="3">Somewhat important</Choice>
+				<Choice value="2">Slightly important</Choice>
+				<Choice value="1">Not at all important</Choice>
+					</Choices>
+				</Question>
+				<Question type="choice" render="dropselect" ID="factorfamily" required="">
+					<Text>On average, men and women differ in their willingness to spend time away from their families.</Text>
+					<Choices>
+						<Choice value=".">.</Choice>
+				<Choice value="5">Extremely important</Choice>
+				<Choice value="4">Very important</Choice>
+				<Choice value="3">Somewhat important</Choice>
+				<Choice value="2">Slightly important</Choice>
+				<Choice value="1">Not at all important</Choice>
+					</Choices>
+				</Question>
+				<Question type="choice" render="dropselect" ID="factorability" required="">
+					<Text>Different proportions of men and women are found among people with the very highest levels of math ability.</Text>
+					<Choices>
+						<Choice value=".">.</Choice>
+				<Choice value="5">Extremely important</Choice>
+				<Choice value="4">Very important</Choice>
+				<Choice value="3">Somewhat important</Choice>
+				<Choice value="2">Slightly important</Choice>
+				<Choice value="1">Not at all important</Choice>
+					</Choices>
+				</Question>
+				<Question type="choice" render="dropselect" ID="factorinterest" required="">
+					<Text>On average, men and women differ naturally in their scientific interest.</Text>
+					<Choices>
+						<Choice value=".">.</Choice>
+				<Choice value="5">Extremely important</Choice>
+				<Choice value="4">Very important</Choice>
+				<Choice value="3">Somewhat important</Choice>
+				<Choice value="2">Slightly important</Choice>
+				<Choice value="1">Not at all important</Choice>
+					</Choices>
+				</Question>
+				<Question type="choice" render="dropselect" ID="factorencouragement" required="">
+					<Text>Directly or indirectly, boys and girls tend to receive different levels of encouragement for developing scientific interest.</Text>
+					<Choices>
+						<Choice value=".">.</Choice>
+				<Choice value="5">Extremely important</Choice>
+				<Choice value="4">Very important</Choice>
+				<Choice value="3">Somewhat important</Choice>
+				<Choice value="2">Slightly important</Choice>
+				<Choice value="1">Not at all important</Choice>
+					</Choices>
+				</Question>
+				<Question type="choice" render="dropselect" ID="factordiscrimination" required="">
+					<Text>On average, whether consciously or unconsciously, men are favored in hiring and promotion.</Text>
+					<Choices>
+						<Choice value=".">.</Choice>
+				<Choice value="5">Extremely important</Choice>
+				<Choice value="4">Very important</Choice>
+				<Choice value="3">Somewhat important</Choice>
+				<Choice value="2">Slightly important</Choice>
+				<Choice value="1">Not at all important</Choice>
+					</Choices>
+				</Question>
+			</Random>
+		</Block>
+		<Block Name="block6" columns="1">
+			<Text>Rate the following personal-goal-statements on their importance to you:</Text>
+			<Random maxSelected="2">
+				<Question type="choice" render="dropselect" ID="goal1" required="">
+					<Text>Being knowledgable about science.</Text>
+					<Choices>
+						<Choice value=".">.</Choice>
+				<Choice value="5">Extremely important</Choice>
+				<Choice value="4">Very important</Choice>
+				<Choice value="3">Somewhat important</Choice>
+				<Choice value="2">Slightly important</Choice>
+				<Choice value="1">Not at all important</Choice>
+					</Choices>
+				</Question>
+				<Question type="choice" render="dropselect" ID="goal2" required="">
+					<Text>Being knowledgable about math.</Text>
+					<Choices>
+						<Choice value=".">.</Choice>
+				<Choice value="5">Extremely important</Choice>
+				<Choice value="4">Very important</Choice>
+				<Choice value="3">Somewhat important</Choice>
+				<Choice value="2">Slightly important</Choice>
+				<Choice value="1">Not at all important</Choice>
+					</Choices>
+				</Question>
+				<Question type="choice" render="dropselect" ID="goal3" required="">
+					<Text>Being knowledgable about liberal arts.</Text>
+					<Choices>
+						<Choice value=".">.</Choice>
+				<Choice value="5">Extremely important</Choice>
+				<Choice value="4">Very important</Choice>
+				<Choice value="3">Somewhat important</Choice>
+				<Choice value="2">Slightly important</Choice>
+				<Choice value="1">Not at all important</Choice>
+					</Choices>
+				</Question>
+			</Random>
+		</Block>
+		<Block Name="block7" columns="1">
+			<Question type="choice" render="dropselect" ID="genident" required="">
+				<Text>Which statement best describes your gender identity?</Text>
+				<Choices>
+					<Choice value=".">.</Choice>
+					<Choice value="-3">Strongly identified with male</Choice>
+					<Choice value="-2">Moderately identified with male</Choice>			
+					<Choice value="-1">Slightly identified with male</Choice>
+					<Choice value="0">No difference in identification with male and female</Choice>
+					<Choice value="1">Slightly identified with female</Choice>
+					<Choice value="2">Moderately identified with female</Choice>
+					<Choice value="3">Strongly identified with female</Choice>
+				</Choices>
+			</Question>
+		</Block>
+    	<Random maxSelected="1">
+		    <Block Name="block8" columns="1">
+			
+				<Question type="choice" render="dropselect" ID="ran9thgirls" required="">
+					<Text>Suppose that ten 9th-grade girls were picked at random from a typical U.S. high school. How many would you predict will complete a calculus course before finishing high school?</Text>
+					<Choices>
+						<Choice value=".">.</Choice>
+						<Choice value="0">0</Choice>
+						<Choice value="1">1</Choice>
+						<Choice value="2">2</Choice>
+						<Choice value="3">3</Choice>
+						<Choice value="4">4</Choice>
+						<Choice value="5">5</Choice>
+						<Choice value="6">6</Choice>
+						<Choice value="7">7</Choice>
+						<Choice value="8">8</Choice>
+						<Choice value="9">9</Choice>
+						<Choice value="10">10</Choice>
+					</Choices>
+				</Question>
+				<Question type="choice" render="dropselect" ID="ran9thboys" required="">
+					<Text>Suppose that ten 9th-grade boys were picked at random from a typical U.S. high school. How many would you predict will complete a calculus course before finishing high school?</Text>
+					<Choices>
+						<Choice value=".">.</Choice>
+						<Choice value="0">0</Choice>
+						<Choice value="1">1</Choice>
+						<Choice value="2">2</Choice>
+						<Choice value="3">3</Choice>
+						<Choice value="4">4</Choice>
+						<Choice value="5">5</Choice>
+						<Choice value="6">6</Choice>
+						<Choice value="7">7</Choice>
+						<Choice value="8">8</Choice>
+						<Choice value="9">9</Choice>
+						<Choice value="10">10</Choice>
+					</Choices>
+				</Question>
+	        </Block>
+	        <Block Name="block99" columns="1">
+				<Question type="choice" render="dropselect" ID="rancollwomen" required="">
+					<Text>Suppose that ten women at a typical U.S. university were picked at random. How many would you predict will graduate with a scientific major (science, technology, engineering, or mathematics)?</Text>
+					<Choices>
+						<Choice value=".">.</Choice>
+						<Choice value="0">0</Choice>
+						<Choice value="1">1</Choice>
+						<Choice value="2">2</Choice>
+						<Choice value="3">3</Choice>
+						<Choice value="4">4</Choice>
+						<Choice value="5">5</Choice>
+						<Choice value="6">6</Choice>
+						<Choice value="7">7</Choice>
+						<Choice value="8">8</Choice>
+						<Choice value="9">9</Choice>
+						<Choice value="10">10</Choice>
+					</Choices>
+				</Question>
+				<Question type="choice" render="dropselect" ID="rancollmen" required="">
+					<Text>Suppose that ten men at a typical U.S. university were picked at random. How many would you predict will graduate with a scientific major (science, technology, engineering, or mathematics)?</Text>
+					<Choices>
+						<Choice value=".">.</Choice>
+						<Choice value="0">0</Choice>
+						<Choice value="1">1</Choice>
+						<Choice value="2">2</Choice>
+						<Choice value="3">3</Choice>
+						<Choice value="4">4</Choice>
+						<Choice value="5">5</Choice>
+						<Choice value="6">6</Choice>
+						<Choice value="7">7</Choice>
+						<Choice value="8">8</Choice>
+						<Choice value="9">9</Choice>
+						<Choice value="10">10</Choice>
+					</Choices>
+				</Question>
+		    </Block>
+    	</Random>
+	    <Block ID="ques36" columns="3">
+	        <Text>If you took either or both of the following tests (SAT and ACT), please provide your most accurate recollection of your best OFFICIAL scores:</Text>
+	        <Question type="choice" render="dropselect" ID="scompsatv" required="no">
+	                <Text>SAT Verbal</Text>
+	                <Choices>
+	                    <Choice value=".">.</Choice>
+	                    <Choice value="200">200</Choice>
+	                    <Choice value="210">210</Choice>
+	                    <Choice value="220">220</Choice>
+	                    <Choice value="230">230</Choice>
+	                    <Choice value="240">240</Choice>
+	                    <Choice value="250">250</Choice>
+	                    <Choice value="260">260</Choice>
+	                    <Choice value="270">270</Choice>
+	                    <Choice value="280">280</Choice>
+	                    <Choice value="290">290</Choice>
+	                    <Choice value="300">300</Choice>
+	                    <Choice value="310">310</Choice>
+	                    <Choice value="320">320</Choice>
+	                    <Choice value="330">330</Choice>
+	                    <Choice value="340">340</Choice>
+	                    <Choice value="350">350</Choice>
+	                    <Choice value="360">360</Choice>
+	                    <Choice value="370">370</Choice>
+	                    <Choice value="380">380</Choice>
+	                    <Choice value="390">390</Choice>
+	                    <Choice value="400">400</Choice>
+	                    <Choice value="410">410</Choice>
+	                    <Choice value="420">420</Choice>
+	                    <Choice value="430">430</Choice>
+	                    <Choice value="440">440</Choice>
+	                    <Choice value="450">450</Choice>
+	                    <Choice value="460">460</Choice>
+	                    <Choice value="470">470</Choice>
+	                    <Choice value="480">480</Choice>
+	                    <Choice value="490">490</Choice>
+	                    <Choice value="500">500</Choice>
+	                    <Choice value="510">510</Choice>
+	                    <Choice value="510">510</Choice>
+	                    <Choice value="520">520</Choice>
+	                    <Choice value="530">530</Choice>
+	                    <Choice value="540">540</Choice>
+	                    <Choice value="550">550</Choice>
+	                    <Choice value="560">560</Choice>
+	                    <Choice value="570">570</Choice>
+	                    <Choice value="580">580</Choice>
+	                    <Choice value="590">590</Choice>
+	                    <Choice value="600">600</Choice>
+	                    <Choice value="610">610</Choice>
+	                    <Choice value="620">620</Choice>
+	                    <Choice value="630">630</Choice>
+	                    <Choice value="640">640</Choice>
+	                    <Choice value="650">650</Choice>
+	                    <Choice value="660">660</Choice>
+	                    <Choice value="670">670</Choice>
+	                    <Choice value="680">680</Choice>
+	                    <Choice value="690">690</Choice>
+	                    <Choice value="700">700</Choice>
+	                    <Choice value="710">710</Choice>
+	                    <Choice value="720">720</Choice>
+	                    <Choice value="730">730</Choice>
+	                    <Choice value="740">740</Choice>
+	                    <Choice value="750">750</Choice>
+	                    <Choice value="760">760</Choice>
+	                    <Choice value="770">770</Choice>
+	                    <Choice value="780">780</Choice>
+	                    <Choice value="790">790</Choice>
+	                    <Choice value="800">800</Choice>
+	                </Choices>
+	        </Question>
+	        <Question type="choice" render="dropselect" ID="scompsatm" required="no">
+	                <Text>SAT Math</Text>
+	                <Choices>
+	                    <Choice value=".">.</Choice>
+	                    <Choice value="200">200</Choice>
+	                    <Choice value="210">210</Choice>
+	                    <Choice value="220">220</Choice>
+	                    <Choice value="230">230</Choice>
+	                    <Choice value="240">240</Choice>
+	                    <Choice value="250">250</Choice>
+	                    <Choice value="260">260</Choice>
+	                    <Choice value="270">270</Choice>
+	                    <Choice value="280">280</Choice>
+	                    <Choice value="290">290</Choice>
+	                    <Choice value="300">300</Choice>
+	                    <Choice value="310">310</Choice>
+	                    <Choice value="320">320</Choice>
+	                    <Choice value="330">330</Choice>
+	                    <Choice value="340">340</Choice>
+	                    <Choice value="350">350</Choice>
+	                    <Choice value="360">360</Choice>
+	                    <Choice value="370">370</Choice>
+	                    <Choice value="380">380</Choice>
+	                    <Choice value="390">390</Choice>
+	                    <Choice value="400">400</Choice>
+	                    <Choice value="410">410</Choice>
+	                    <Choice value="420">420</Choice>
+	                    <Choice value="430">430</Choice>
+	                    <Choice value="440">440</Choice>
+	                    <Choice value="450">450</Choice>
+	                    <Choice value="460">460</Choice>
+	                    <Choice value="470">470</Choice>
+	                    <Choice value="480">480</Choice>
+	                    <Choice value="490">490</Choice>
+	                    <Choice value="500">500</Choice>
+	                    <Choice value="510">510</Choice>
+	                    <Choice value="510">510</Choice>
+	                    <Choice value="520">520</Choice>
+	                    <Choice value="530">530</Choice>
+	                    <Choice value="540">540</Choice>
+	                    <Choice value="550">550</Choice>
+	                    <Choice value="560">560</Choice>
+	                    <Choice value="570">570</Choice>
+	                    <Choice value="580">580</Choice>
+	                    <Choice value="590">590</Choice>
+	                    <Choice value="600">600</Choice>
+	                    <Choice value="610">610</Choice>
+	                    <Choice value="620">620</Choice>
+	                    <Choice value="630">630</Choice>
+	                    <Choice value="640">640</Choice>
+	                    <Choice value="650">650</Choice>
+	                    <Choice value="660">660</Choice>
+	                    <Choice value="670">670</Choice>
+	                    <Choice value="680">680</Choice>
+	                    <Choice value="690">690</Choice>
+	                    <Choice value="700">700</Choice>
+	                    <Choice value="710">710</Choice>
+	                    <Choice value="720">720</Choice>
+	                    <Choice value="730">730</Choice>
+	                    <Choice value="740">740</Choice>
+	                    <Choice value="750">750</Choice>
+	                    <Choice value="760">760</Choice>
+	                    <Choice value="770">770</Choice>
+	                    <Choice value="780">780</Choice>
+	                    <Choice value="790">790</Choice>
+	                    <Choice value="800">800</Choice>
+	                </Choices>
+	        </Question>
+	        <Question type="choice" render="dropselect" ID="scompactc" required="no">
+	                <Text>ACT Composite</Text>
+	                <Choices>
+	                    <Choice value=".">.</Choice>
+	                    <Choice value="1">1</Choice>
+	                    <Choice value="2">2</Choice>
+	                    <Choice value="3">3</Choice>
+	                    <Choice value="4">4</Choice>
+	                    <Choice value="5">5</Choice>
+	                    <Choice value="6">6</Choice>
+	                    <Choice value="7">7</Choice>
+	                    <Choice value="8">8</Choice>
+	                    <Choice value="9">9</Choice>
+	                    <Choice value="10">10</Choice>
+	                    <Choice value="11">11</Choice>
+	                    <Choice value="12">12</Choice>
+	                    <Choice value="13">13</Choice>
+	                    <Choice value="14">14</Choice>
+	                    <Choice value="15">15</Choice>
+	                    <Choice value="16">16</Choice>
+	                    <Choice value="17">17</Choice>
+	                    <Choice value="18">18</Choice>
+	                    <Choice value="19">19</Choice>
+	                    <Choice value="20">20</Choice>
+	                    <Choice value="21">21</Choice>
+	                    <Choice value="22">22</Choice>
+	                    <Choice value="23">23</Choice>
+	                    <Choice value="24">24</Choice>
+	                    <Choice value="25">25</Choice>
+	                    <Choice value="26">26</Choice>
+	                    <Choice value="27">27</Choice>
+	                    <Choice value="28">28</Choice>
+	                    <Choice value="29">29</Choice>
+	                    <Choice value="30">30</Choice>
+	                    <Choice value="31">31</Choice>
+	                    <Choice value="32">32</Choice>
+	                    <Choice value="33">33</Choice>
+	                    <Choice value="34">34</Choice>
+	                    <Choice value="35">35</Choice>
+	                    <Choice value="36">36</Choice>							
+	                </Choices>
+	        </Question>
+	    </Block>
+	</Random>
+</Questionnaire>

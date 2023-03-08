@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE IAT SYSTEM "https://implicit.harvard.edu/implicit/research/library/dtd/ImplicitIAT_001.dtd">
+<IAT>
+  <IATName>demo_gendernewa</IATName>
+  <Categories>
+    <Category font="Helvetica" color="ffff00" fontsize="40">
+      <CategoryNumber>0</CategoryNumber>
+      <Stimuli>
+        <CategoryName>Liberal Arts</CategoryName>
+        <CategoryImgURL/>
+        <Stimulus type="word">History</Stimulus>
+        <Stimulus type="word">Arts</Stimulus>
+        <Stimulus type="word">Humanities</Stimulus>
+        <Stimulus type="word">English</Stimulus>
+        <Stimulus type="word">Philosophy</Stimulus>
+        <Stimulus type="word">Music</Stimulus>
+        <Stimulus type="word">Literature</Stimulus>
+      </Stimuli>
+    </Category>
+    <Category font="Helvetica" color="ffff00" fontsize="40">
+      <CategoryNumber>1</CategoryNumber>
+      <Stimuli>
+        <CategoryName>Science</CategoryName>
+        <CategoryImgURL/>
+        <Stimulus type="word">Astronomy</Stimulus>
+        <Stimulus type="word">Math</Stimulus>
+        <Stimulus type="word">Chemistry</Stimulus>
+        <Stimulus type="word">Physics</Stimulus>
+        <Stimulus type="word">Biology</Stimulus>
+        <Stimulus type="word">Geology</Stimulus>
+        <Stimulus type="word">Engineering</Stimulus>
+      </Stimuli>
+    </Category>
+    <Category font="Helvetica" color="00ff00" fontsize="40">
+      <CategoryNumber>2</CategoryNumber>
+      <Stimuli>
+        <CategoryName>Female</CategoryName>
+        <CategoryImgURL/>
+        <Stimulus type="word">MOTHER</Stimulus>
+        <Stimulus type="word">WIFE</Stimulus>
+        <Stimulus type="word">AUNT</Stimulus>
+        <Stimulus type="word">WOMAN</Stimulus>
+        <Stimulus type="word">GIRL</Stimulus>
+        <Stimulus type="word">FEMALE</Stimulus>
+        <Stimulus type="word">GRANDMA</Stimulus>
+        <Stimulus type="word">DAUGHTER</Stimulus>
+      </Stimuli>
+    </Category>
+    <Category font="Helvetica" color="00ff00" fontsize="40">
+      <CategoryNumber>3</CategoryNumber>
+      <Stimuli>
+        <CategoryName>Male</CategoryName>
+        <CategoryImgURL/>
+        <Stimulus type="word">MAN</Stimulus>
+        <Stimulus type="word">SON</Stimulus>
+        <Stimulus type="word">FATHER</Stimulus>
+        <Stimulus type="word">BOY</Stimulus>
+        <Stimulus type="word">UNCLE</Stimulus>
+        <Stimulus type="word">GRANDPA</Stimulus>
+        <Stimulus type="word">HUSBAND</Stimulus>
+        <Stimulus type="word">MALE</Stimulus>
+      </Stimuli>
+    </Category>
+  </Categories>
+  <Block limitSequence="true">
+    <Instructions><![CDATA[<p><font face="Arial" size="28" color="#ffffff"><p align="center"><u>Part 1 of 7</u></p><br/>Put a left finger on the <b>E</b> key for <font color="#00ff00">female</font> words. <br/>Put a right finger on the <b>I</b> key for <font color="#00ff00">male</font> words.<br/>Items will appear one at a time.<br/><br/>If you make a mistake, a red <font color="#ff0000"><b>X</b></font> will appear. Press the other key to continue. <u>Go as fast as you can</u> while being accurate.<br/><br/><p align="center">Press the <b>space bar</b> to begin.</p></font></p>]]></Instructions>
+    <BlockNumber>0</BlockNumber>
+    <TrialCount>20</TrialCount>
+    <BlockPairingDefinition>3,2</BlockPairingDefinition>
+  </Block>
+  <Block limitSequence="true">
+    <Instructions><![CDATA[<p><font face="Arial" size="28" color="#ffffff"><p align="center"><u>Part 2 of 7</u></p><br/>Put a left finger on the <b>E</b> key for <font color="#ffff00">science</font> words. <br/>Put a right finger on the <b>I</b> key for <font color="#ffff00">liberal arts</font> words.<br/><br/>If you make a mistake, a red <font color="#ff0000"><b>X</b></font> will appear. Press the other key to continue. <u>Go as fast as you can</u> while being accurate.<br/><br/><p align="center">Press the <b>space bar</b> to begin.</p></font></p>]]></Instructions>
+    <BlockNumber>1</BlockNumber>
+    <TrialCount>20</TrialCount>
+    <BlockPairingDefinition>0,1</BlockPairingDefinition>
+  </Block>
+  <Block limitSequence="true">
+    <Instructions><![CDATA[<p><font face="Arial" size="28" color="#ffffff"><p align="center"><u>Part 3 of 7</u></p><br/>Use the <b>E</b> key for <font color="#00ff00">female</font> words and  for <font color="#ffff00">science</font> words.<br/>Use the <b>I</b> key for <font color="#00ff00">male</font> words and  for <font color="#ffff00">liberal arts</font> words.<br/><br/>If you make a mistake, a red <font color="#ff0000"><b>X</b></font> will appear. Press the other key to continue. <u>Go as fast as you can</u> while being accurate.<br/><br/><p align="center">Press the <b>space bar</b> to begin.</p></font></p>]]></Instructions>
+    <BlockNumber>2</BlockNumber>
+    <TrialCount>20</TrialCount>
+    <BlockPairingDefinition>3,2,0,1</BlockPairingDefinition>
+  </Block>
+  <Block limitSequence="true">
+    <Instructions><![CDATA[<p><font face="Arial" size="28" color="#ffffff"><p align="center"><u>Part 4 of 7</u></p><br/>This is the same as the last one.<br/>Use the <b>E</b> key for <font color="#00ff00">female</font> words and  for <font color="#ffff00">science</font> words.<br/>Use the <b>I</b> key for <font color="#00ff00">male</font> words and  for <font color="#ffff00">liberal arts</font> words. <br/><br/><u>Go as fast as you can</u> while being accurate.<br/><br/><p align="center">Press the <b>space bar</b> to begin.</p></font></p>]]></Instructions>
+    <BlockNumber>3</BlockNumber>
+    <TrialCount>40</TrialCount>
+    <BlockPairingDefinition>3,2,0,1</BlockPairingDefinition>
+  </Block>
+  <Block limitSequence="true">
+    <Instructions><![CDATA[<p><font face="Arial" size="28" color="#ffffff"><p align="center"><u>Part 5 of 7</u></p><br/>Watch out, the labels have changed position!<br/>Use the left finger on the <b>E</b> key for <font color="#00ff00">male</font> words. <br/>Use the right finger on the <b>I</b> key for <font color="#00ff00">female</font> words.<br/><br/><u>Go as fast as you can</u> while being accurate.<br/><br/><p align="center">Press the <b>space bar</b> to begin.</p></font></p>]]></Instructions>
+    <BlockNumber>4</BlockNumber>
+    <TrialCount>40</TrialCount>
+    <BlockPairingDefinition>2,3</BlockPairingDefinition>
+  </Block>
+  <Block limitSequence="true">
+    <Instructions><![CDATA[<p><font face="Arial" size="28" color="#ffffff"><p align="center"><u>Part 6 of 7</u></p><br/>Use the <b>E</b> key for <font color="#00ff00">male</font> words and  for <font color="#ffff00">science</font> words.<br/>Use the <b>I</b> key for <font color="#00ff00">female</font> words and  for <font color="#ffff00">liberal arts</font> words.<br/><br/><u>Go as fast as you can</u> while being accurate.<br/><br/><p align="center">Press the <b>space bar</b> to begin.</p></font></p>]]></Instructions>
+    <BlockNumber>5</BlockNumber>
+    <TrialCount>20</TrialCount>
+    <BlockPairingDefinition>2,3,0,1</BlockPairingDefinition>
+  </Block>
+  <Block limitSequence="true">
+    <Instructions><![CDATA[<p><font face="Arial" size="28" color="#ffffff"><p align="center"><u>Part 7 of 7</u></p><br/>This is the same as the last one.<br/>Use the <b>E</b> key for <font color="#00ff00">male</font> words and  for <font color="#ffff00">science</font> words.<br/>Use the <b>I</b> key for <font color="#00ff00">female</font> words and  for <font color="#ffff00">liberal arts</font> words. <br/><br/><u>Go as fast as you can</u> while being accurate.<br/><br/><p align="center">Press the <b>space bar</b> to begin.</p></font></p>]]></Instructions>
+    <BlockNumber>6</BlockNumber>
+    <TrialCount>40</TrialCount>
+    <BlockPairingDefinition>2,3,0,1</BlockPairingDefinition>
+  </Block>
+  <Results>
+    <Result id="0" cutoff="-.65">Your data suggest a strong association of Female with Science and Male with Liberal Arts compared to Male with Science and Female with Liberal Arts.</Result>
+    <Result id="1" cutoff="-.35">Your data suggest a moderate association of Female with Science and Male with Liberal Arts compared to Male with Science and Female with Liberal Arts.</Result>
+    <Result id="2" cutoff="-.15">Your data suggest a slight association of Female with Science and Male with Liberal Arts compared to Male with Science and Female with Liberal Arts.</Result>
+    <Result id="3" cutoff="0">Your data suggest little or no association between Female and Male with Science and Liberal Arts.</Result>
+    <Result id="4" cutoff=".15">Your data suggest a slight association of Male with Science and Female with Liberal Arts compared to Female with Science and Male with Liberal Arts.</Result>
+    <Result id="5" cutoff=".35">Your data suggest a moderate association of Male with Science and Female with Liberal Arts compared to Female with Science and Male with Liberal Arts.</Result>
+    <Result id="6" cutoff=".65">Your data suggest a strong association of Male with Science and Female with Liberal Arts compared to Female with Science and Male with Liberal Arts.</Result>
+  </Results>
+  <ReportBlocks>2,3,5,6</ReportBlocks>
+</IAT>
